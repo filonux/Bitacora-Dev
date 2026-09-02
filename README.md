@@ -37,7 +37,9 @@ Although the name is aimed at software, the structure also fits an essay, resear
 
 ![Bitácora Dev desktop view](assets/screenshots/en-desktop.png)
 
-🎬 [Watch the demo](assets/demo/demo.mp4)
+🎬 [Watch the demo](assets/demo/demo.mp4) 
+
+https://github.com/user-attachments/assets/84a9c954-9cde-4381-9c12-331aa0f140e0
 
 When a project grows, remembering its current state is easy; the hard part is remembering **why it got there**. Bitácora Dev doesn't only store versions — it stores the project's history.
 
