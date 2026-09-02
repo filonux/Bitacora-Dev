@@ -39,6 +39,8 @@ Aunque el nombre está pensado para software, la estructura también encaja con 
 
 🎬 [Ver la demo](assets/demo/demo.mp4)
 
+https://github.com/user-attachments/assets/4ce37628-37ca-4a1d-aca9-63b383b731a2
+
 Cuando un proyecto crece, recordar su estado actual es fácil; lo difícil es recordar **por qué llegó ahí**. Bitácora Dev no solo guarda versiones: guarda la historia del proyecto.
 
 ## Ventajas
