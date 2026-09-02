@@ -12,6 +12,7 @@ Este es un proyecto pequeño mantenido en tiempo libre. Para que sea un buen sit
 El mantenedor puede editar, cerrar o eliminar issues, comentarios y PRs que no respeten lo anterior, y bloquear a quien reincida. Si presencias o sufres algo que no encaja con este código de conducta, puedes escribir directamente al mantenedor a través de los canales de contacto del perfil de GitHub.
 
 -----------ENGLISH-----------
+
 Code of Conduct
 
 This is a small project maintained in people's spare time. To make it a good place to participate, the following is expected from anyone who comments, opens an issue, or submits a PR:
