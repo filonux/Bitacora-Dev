@@ -1,6 +1,6 @@
 <a href="assets/icons/icon.png"><img src="assets/icons/icon.png" alt="Bitácora Dev icon" width="140" height="140" /></a>
 
-# Bitácora Dev
+# Bitácora Dev - Dev Log
 
 🇬🇧 **English** · 🇪🇸 [Español](README_es.md)
 
