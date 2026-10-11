@@ -2,7 +2,7 @@
 
 # Dev Log - Bitácora Dev
 
-🇬🇧 **English** · 🇪🇸 [Español](README_es.md)
+**English** · [Español](README_es.md)
 
 ![HTML](https://img.shields.io/badge/HTML-5-E34F26?logo=html5&logoColor=white) ![Local first](https://img.shields.io/badge/local--first-yes-2f8c5b) ![ES%20%2F%20EN](https://img.shields.io/badge/ES%20%2F%20EN-bilingual-49a86e)
 
