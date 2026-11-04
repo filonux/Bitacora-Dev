@@ -12,7 +12,7 @@ Current version: **3.2.2**
 
 🎬 [Watch the demo](assets/demo/demo.mp4)
 
-https://github.com/user-attachments/assets/84a9c954-9cde-4381-9c12-331aa0f140e0
+https://github.com/user-attachments/assets/1a1ea373-bc86-4983-ab29-dd277ee62225
 
 🎬 [Watch the AI demo](assets/demo/demo-AI.mp4): an artificial intelligence using the program, which in turn is connected to low-resource local models.
 
