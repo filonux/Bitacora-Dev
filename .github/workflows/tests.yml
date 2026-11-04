@@ -1,0 +1,42 @@
+name: tests
+
+# Runs only when the program or its tests change: editing a README, the license or the demo data never triggers it.
+on:
+  push:
+    paths:
+      - 'script/**'
+      - 'tests/**'
+      - '.github/workflows/tests.yml'
+  pull_request:
+    paths:
+      - 'script/**'
+      - 'tests/**'
+      - '.github/workflows/tests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  e2e:
+    # Pinned: ubuntu-latest is moving to Ubuntu 26.04, where Playwright 1.56.0 cannot install Chromium. Raise both together.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      # Playwright goes in the folder above the checkout (Node finds it from there): the repository gets no node_modules, lockfile or ignore file.
+      - name: Install Playwright and Chromium
+        run: |
+          npm install --prefix .. --no-save --no-package-lock playwright@1.56.0
+          npx --no-install --prefix .. playwright install --with-deps chromium
+      # Two files at a time: with the runner's default concurrency some timing-sensitive tests (T13.2) can fail.
+      - run: node --test --test-concurrency=2 tests/*.test.mjs
