@@ -1,73 +1,45 @@
 ---
-name: Reporte de error
-about: Algo no funciona como debería
+name: Bug report
+about: Something does not work as it should
 title: "[BUG] "
 labels: bug
 assignees: ''
 ---
 
-## Descripción del problema
+## What happens
 
-Explica claramente qué está pasando.
+A clear description of the problem.
 
-## Pasos para reproducirlo
+## Steps to reproduce
 
-## Comportamiento esperado
+1.
+2.
+3.
 
-Qué debería haber pasado en su lugar.
+## Expected behavior
 
-## Capturas de pantalla
+What should have happened instead.
 
-Si aplica, añade capturas que ayuden a explicar el problema.
+## Screenshots
 
-## Entorno
+If it helps, add screenshots that show the problem.
 
-## Mensajes de error / salida de terminal
+## Environment
 
+- App version (shown in Settings, or `BitacoraAPI.version` in the console):
+- Browser and version:
+- Operating system or device:
+- How you opened the app (`file://`, a local server, etc.):
+- Interface language (Spanish or English):
+- AI provider and model, if the problem involves the AI panel:
+- Did the **Memory only** warning appear?
+
+## Console errors
+
+```text
+(paste any errors from the browser console here)
 ```
-(pega aquí la salida)
-```
 
-## Contexto adicional
+## Additional context
 
-Cualquier otro detalle que pueda ser útil (elemento concreto que falla, si es de usuario/sistema/systemd/cron, etc.).
-
----------ENGLISH---------
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
-
----
-
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+Anything else that may help, such as the size of the project or whether it happens after importing a file.
