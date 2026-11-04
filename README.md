@@ -16,6 +16,8 @@ https://github.com/user-attachments/assets/84a9c954-9cde-4381-9c12-331aa0f140e0
 
 🎬 [Watch the AI demo](assets/demo/demo-AI.mp4): an artificial intelligence using the program, which in turn is connected to low-resource local models.
 
+https://github.com/user-attachments/assets/1480ff3f-7424-4d92-b5e4-ee5f292d4fb8
+
 ## What's new in 3.2.2
 
 **New**
